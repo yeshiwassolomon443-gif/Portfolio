@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    position: relative;
+    background-color: skyblue;
+}
+header{
+background-color: blue;
+width: 100%;
+font-size: 15px;
+position: fixed;
+top: 0px;
+display: flex;
+text-align: center;
+}
+header li{
+    color: white;
+    font-size: 25px;
+padding-top: 10px;
+    
+}
+a:hover{
+    color: darkorange;
+}
+#name{
+    width: 2px;
+    height: 2px;
+    font-size: 20px;
+}
+header a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding-top: 40px;
+padding-left: 200px;
+padding-bottom: 40px;
+text-align: end;
+}
+li{
+    list-style: none;
+}
+.text{
+    text-align: center;
+    margin-top: 200px;
+    background-color: teal;
+    padding: 150px;
+}
+section{ 
+    padding: 100px;
+    height: 100vh;
+}
+#home{
+    background-color: aqua;
+}
+#about{
+    background-color: springgreen;
+}
+#skill{
+    background-color:yellowgreen;
+}
+#contuct{background-color: pink;}
+h1,p{
+    text-align: center;
+    font-size: 40px;
+}
+#email{
+    text-decoration: none;
+}
+#email:hover{
+    color: tomato;
+    background-color: turquoise;
+    font-size: 30px;
+}
